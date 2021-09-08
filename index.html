@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Online Shop</title>
+</head>
+<body>
+
+<!--Navigation Bar-->
+<nav class="navbar navigation-bg navbar-expand-lg">
+    <div class="container-fluid">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Hidden brand</a>
+                <ul class="navbar-nav mx-5 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-3">
+                        <a class="nav-link navigation-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link navigation-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link navigation-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link navigation-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link navigation-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="" class="d-flex cart align-items-center px-3 text-decoration-none text-black-50">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="fw-bold mx-1">CART</span>
+                    </a>
+                    <div class="d-flex align-items-center">
+                        <p class="mb-1 mx-2 fw-bold"><a href="" class="text-decoration-none text-sign">Sign In</a> / <a href="" class="text-decoration-none text-sign">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--Navigation Bar-->
+<section class="container-fluid p-0 position-relative">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Image/computer-bg.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/computer-bg.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/computer-bg.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<section class="p-0 container-fluid">
+    <div class="row justify-content-center py-4">
+        <div class="card-width mx-3">
+            <div class="text-center pb-5 pt-3">
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <i class="fas fa-truck deliver d-flex justify-content-center align-items-center"></i>
+                </div>
+                <div class="">
+                    <h5 class="fw-bold">Free Delivery From $ 250</h5>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, vel!</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-width mx-3">
+            <div class="text-center pb-5 pt-3">
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <i class="fas fa-truck deliver d-flex justify-content-center align-items-center"></i>
+                </div>
+                <div class="">
+                    <h5 class="fw-bold">Free Delivery From $ 250</h5>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, vel!</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-width mx-3">
+            <div class="text-center pb-5 pt-3">
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <i class="fas fa-truck deliver d-flex justify-content-center align-items-center"></i>
+                </div>
+                <div class="">
+                    <h5 class="fw-bold">Free Delivery From $ 250</h5>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, vel!</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-width mx-3">
+            <div class="text-center pb-5 pt-3">
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <i class="fas fa-truck deliver d-flex justify-content-center align-items-center"></i>
+                </div>
+                <div class="">
+                    <h5 class="fw-bold">Free Delivery From $ 250</h5>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, vel!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="p-0">
+    <div class="container-fluid my-5">
+        <div class="row justify-content-evenly">
+            <div class="col-5 d-flex justify-content-around border-1 shadow-lg py-2" style="height: 250px;">
+                <img src="Image/lap.jpg" class="img-fluid w-20" alt="">
+                <div class="text-center d-flex flex-column align-items-center justify-content-center">
+                    <h5 class="text-danger fw-bold">Computer</h5>
+                    <span class="text-black-50">New 100 Computers</span>
+                </div>
+            </div>
+            <div class="col-5 d-flex justify-content-around border-1 shadow-lg py-2" style="height: 250px;">
+                <img src="Image/phone.jpg" class="img-fluid w-20" alt="">
+                <div class="text-center d-flex flex-column align-items-center justify-content-center">
+                    <h5 class="text-danger fw-bold">Phone For Everyone</h5>
+                    <span class="text-black-50">New 100 Phones</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="p-0">
+    <div class="container-fluid">
+        <div class="row justify-content-around">
+            <div class="col-6">
+                <nav class="navbar navbar-expand-lg">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item item-link-active mx-2">
+                            <a class="nav-link mx-3 fw-bold" aria-current="page" href="#">All Category</a>
+                        </li>
+                        <li class="nav-item item-link mx-2">
+                            <a class="nav-link mx-3 fw-bold" href="#">Phone</a>
+                        </li>
+                        <li class="nav-item item-link mx-2">
+                            <a class="nav-link mx-3 fw-bold" href="#">Laptop</a>
+                        </li>
+                        <li class="nav-item item-link mx-2">
+                            <a class="nav-link mx-3 fw-bold" href="#">Computer</a>
+                        </li>
+                        <li class="nav-item item-link mx-2">
+                            <a class="nav-link mx-3 fw-bold" href="#">Tablet</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-4">
+                <div class="d-flex justify-content-end">
+                    <div class="dropdown mx-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sort By
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown mx-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Filter
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="p-0 for-border">
+    <div class="container-fluid my-4 d-flex justify-content-around px-5 mb-5">
+        <div class="category-item text-decoration-none">
+            <div class="border-0 position-relative pb-5">
+                <img src="Image/z-flip3.jpg" class="img-fluid  item-img p-3" alt="">
+                <div class="item-description d-flex justify-content-center align-items-center flex-column rounded border">
+                    <span>SamSung Galaxy Z-Flip 3</span>
+                    <button class="btn btn-sm btn-outline-secondary my-1">
+                        Read More
+                    </button>
+                    <span>$2000</span>
+                </div>
+                <div class="rating">
+
+                    <input type="radio" name="rating" id="r1">
+                    <label for="r1"></label>
+
+                    <input type="radio" name="rating" id="r2">
+                    <label for="r2"></label>
+
+                    <input type="radio" name="rating" id="r3">
+                    <label for="r3"></label>
+
+                    <input type="radio" name="rating" id="r4">
+                    <label for="r4"></label>
+
+                    <input type="radio" name="rating" id="r5">
+                    <label for="r5"></label>
+
+                </div>
+                <div class="cart-body d-flex justify-content-end align-items-center w-100 h-auto">
+                    <button class="btn btn-sm btn-outline-primary">
+                        ADD
+                        <i class="fas fa-cart-plus cart-color"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="category-item text-decoration-none">
+            <div class="border-0 position-relative pb-5">
+                <img src="Image/z-fold3.jpg" class="img-fluid  item-img p-3" alt="">
+                <div class="item-description d-flex justify-content-center align-items-center flex-column rounded border">
+                    <span>Samsung Galaxy Z-Fold 3</span>
+                    <button class="btn btn-sm btn-outline-secondary my-1">
+                        Read More
+                    </button>
+                    <span>$2000</span>
+                </div>
+                <div class="rating">
+
+                    <input type="radio" name="rating" id="a1">
+                    <label for="a1"></label>
+
+                    <input type="radio" name="rating" id="a2">
+                    <label for="a2"></label>
+
+                    <input type="radio" name="rating" id="a3">
+                    <label for="a3"></label>
+
+                    <input type="radio" name="rating" id="a4">
+                    <label for="a4"></label>
+
+                    <input type="radio" name="rating" id="a5">
+                    <label for="a5"></label>
+
+                </div>
+                <div class="cart-body d-flex justify-content-end align-items-center w-100 h-auto">
+                    <button class="btn btn-sm btn-outline-primary">
+                        ADD
+                        <i class="fas fa-cart-plus cart-color"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="category-item text-decoration-none">
+            <div class="border-0 position-relative pb-5">
+                <img src="Image/s21ultra.jpg" class="img-fluid  item-img p-3" alt="">
+                <div class="item-description d-flex justify-content-center align-items-center flex-column rounded border">
+                    <span>Samsung Galaxy S21 Ultra</span>
+                    <button class="btn btn-sm btn-outline-secondary my-1">
+                        Read More
+                    </button>
+                    <span>$2000</span>
+                </div>
+                <div class="rating">
+
+                    <input type="radio" name="rating" id="b1">
+                    <label for="b1"></label>
+
+                    <input type="radio" name="rating" id="b2">
+                    <label for="b2"></label>
+
+                    <input type="radio" name="rating" id="b3">
+                    <label for="b3"></label>
+
+                    <input type="radio" name="rating" id="b4">
+                    <label for="b4"></label>
+
+                    <input type="radio" name="rating" id="b5">
+                    <label for="b5"></label>
+
+                </div>
+                <div class="cart-body d-flex justify-content-end align-items-center w-100 h-auto">
+                    <button class="btn btn-sm btn-outline-primary">
+                        ADD
+                        <i class="fas fa-cart-plus cart-color"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="category-item text-decoration-none">
+            <div class="border-0 position-relative pb-5">
+                <img src="Image/12pro.jpg" class="img-fluid  item-img p-3" alt="">
+                <div class="item-description d-flex justify-content-center align-items-center flex-column rounded border">
+                    <span>Iphone 12 Pro</span>
+                    <button class="btn btn-sm btn-outline-secondary my-1">
+                        Read More
+                    </button>
+                    <span>$2000</span>
+                </div>
+                <div class="rating">
+
+                    <input type="radio" name="rating" id="c1">
+                    <label for="c1"></label>
+
+                    <input type="radio" name="rating" id="c2">
+                    <label for="c2"></label>
+
+                    <input type="radio" name="rating" id="c3">
+                    <label for="c3"></label>
+
+                    <input type="radio" name="rating" id="c4">
+                    <label for="c4"></label>
+
+                    <input type="radio" name="rating" id="c5">
+                    <label for="c5"></label>
+
+                </div>
+                <div class="cart-body d-flex justify-content-end align-items-center w-100 h-auto">
+                    <button class="btn btn-sm btn-outline-primary">
+                        ADD
+                        <i class="fas fa-cart-plus cart-color"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-4 d-flex justify-content-around px-5 mb-5">
+        <div class="category-item text-decoration-none">
+            <div class="border-0 position-relative">
+                <img src="Image/mateboook.jpg" class="img-fluid item-img-lap p-3" alt="">
+                <div class="item-description d-flex justify-content-center align-items-center flex-column rounded border">
+                    <span>Huawei Matebook D-14</span>
+                    <button class="btn btn-sm btn-outline-secondary my-1">
+                        Read More
+                    </button>
+                    <span>$2000</span>
+                </div>
+                <div class="rating-clone">
+
+                    <input type="radio" name="rating" id="d1">
+                    <label class="label-clone" for="d1"></label>
+
+                    <input type="radio" name="rating" id="d2">
+                    <label class="label-clone" for="d2"></label>
+
+                    <input type="radio" name="rating" id="d3">
+                    <label class="label-clone" for="d3"></label>
+
+                    <input type="radio" name="rating" id="d4">
+                    <label class="label-clone" for="d4"></label>
+
+                    <input type="radio" name="rating" id="d5">
+                    <label class="label-clone" for="d5"></label>
+
+                </div>
+                <div class="cart-body-not d-flex justify-content-end align-items-center w-100 h-auto">
+                    <button class="btn btn-sm btn-outline-primary">
+                        ADD
+                        <i class="fas fa-cart-plus cart-color"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="category-item text-decoration-none">
+            <div class="border-0 position-relative pb-5">
+                <img src="Image/hp-1.jpg" class="img-fluid item-img p-3" alt="">
+                <div class="item-description d-flex justify-content-center align-items-center flex-column rounded border">
+                    <span>Hp</span>
+                    <button class="btn btn-sm btn-outline-secondary my-1">
+                        Read More
+                    </button>
+                    <span>$2000</span>
+                </div>
+                <div class="rating">
+
+                    <input type="radio" name="rating" id="e1">
+                    <label for="e1"></label>
+
+                    <input type="radio" name="rating" id="e2">
+                    <label for="e2"></label>
+
+                    <input type="radio" name="rating" id="e3">
+                    <label for="e3"></label>
+
+                    <input type="radio" name="rating" id="e4">
+                    <label for="e4"></label>
+
+                    <input type="radio" name="rating" id="e5">
+                    <label for="e5"></label>
+
+                </div>
+                <div class="cart-body d-flex justify-content-end align-items-center w-100 h-auto">
+                    <button class="btn btn-sm btn-outline-primary">
+                        ADD
+                        <i class="fas fa-cart-plus cart-color"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="category-item text-decoration-none">
+            <div class="border-0 position-relative pb-5">
+                <img src="Image/bookpro.jpg" class="img-fluid item-img p-3" alt="">
+                <div class="item-description d-flex justify-content-center align-items-center flex-column rounded border">
+                    <span>Samsung Galaxy Book Pro</span>
+                    <button class="btn btn-sm btn-outline-secondary my-1">
+                        Read More
+                    </button>
+                    <span>$2000</span>
+                </div>
+                <div class="rating">
+
+                    <input type="radio" name="rating" id="f1">
+                    <label for="f1"></label>
+
+                    <input type="radio" name="rating" id="f2">
+                    <label for="f2"></label>
+
+                    <input type="radio" name="rating" id="f3">
+                    <label for="f3"></label>
+
+                    <input type="radio" name="rating" id="f4">
+                    <label for="f4"></label>
+
+                    <input type="radio" name="rating" id="f5">
+                    <label for="f5"></label>
+
+                </div>
+                <div class="cart-body d-flex justify-content-end align-items-center w-100 h-auto">
+                    <button class="btn btn-sm btn-outline-primary">
+                        ADD
+                        <i class="fas fa-cart-plus cart-color"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="category-item text-decoration-none">
+            <div class="border-0 position-relative pb-5">
+                <img src="Image/m1pro.jpg" class="img-fluid item-img p-3" alt="">
+                <div class="item-description d-flex justify-content-center align-items-center flex-column rounded border">
+                    <span>Macbook M1 Pro 13"</span>
+                    <button class="btn btn-sm btn-outline-secondary my-1">
+                        Read More
+                    </button>
+                    <span>$2000</span>
+                </div>
+                <div class="rating">
+
+                    <input type="radio" name="rating" id="g1">
+                    <label for="g1"></label>
+
+                    <input type="radio" name="rating" id="g2">
+                    <label for="g2"></label>
+
+                    <input type="radio" name="rating" id="g3">
+                    <label for="g3"></label>
+
+                    <input type="radio" name="rating" id="g4">
+                    <label for="g4"></label>
+
+                    <input type="radio" name="rating" id="g5">
+                    <label for="g5"></label>
+
+                </div>
+                <div class="cart-body d-flex justify-content-end align-items-center w-100 h-auto">
+                    <button class="btn btn-sm btn-outline-primary">
+                        ADD
+                        <i class="fas fa-cart-plus cart-color"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center my-5 mb-5">
+        <a href="" class="btn btn-outline-dark text-decoration-none rounded text-uppercase px-2" style="width: 130px;">Load More</a>
+    </div>
+</section>
+
+<section class="p-0 min-vh-100">
+    <div class="container">
+        <div class="d-flex flex-column align-items-center py-5">
+            <h3 class="text-uppercase fw-bold text-primary">Instagram</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+        </div>
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide d-flex justify-content-center align-items-center">
+                        <img src="Image/el.jpg" class="img-fluid" alt="">
+                    </li>
+                    <li class="glide__slide d-flex justify-content-center align-items-center">
+                        <img src="Image/eye.png" class="img-fluid" alt="">
+                    </li>
+                    <li class="glide__slide d-flex justify-content-center align-items-center">
+                        <img src="Image/mmc.png" class="img-fluid" alt="">
+                    </li>
+                    <li class="glide__slide d-flex justify-content-center align-items-center">
+                        <img src="Image/logo.png" class="img-fluid" alt="">
+                    </li>
+                    <li class="glide__slide d-flex justify-content-center align-items-center">
+                        <img src="Image/apple.png" class="img-fluid" alt="">
+                    </li>
+                    <li class="glide__slide d-flex justify-content-center align-items-center">
+                        <img src="Image/sony.png" class="img-fluid" alt="">
+                    </li>
+                    <li class="glide__slide d-flex justify-content-center align-items-center">
+                        <img src="Image/addidas.png" class="img-fluid" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-left text-secondary"></i></button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-right text-secondary"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+
+    let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    });
+
+    new Glide('.glide',{
+        type: 'carousel',
+        startAt: 0,
+        perView: 3,
+        focusAt: 'center',
+        breakpoints: {
+            800: {
+                perView: 2
+            }
+        }
+    }).mount()
+
+</script>
+
+</body>
+</html>
