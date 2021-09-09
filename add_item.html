@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/admin_dashboard.css">
+</head>
+<body>
+    <div class="">
+        <div class="row main-row">
+            <div class="col-lg-2 menu-bar">
+                <ul>
+                    <li >
+                        <i class="fas fa-users-cog"></i>
+                        <a href="admin_dashboard.html" > Admin info</a>
+                    </li>
+                    <hr>
+                    <li class="active">
+                        <i class="fas fa-plus-circle"></i>
+                        <a href="add_item.html">Add items</a>
+                     </li>
+                     <hr>
+                    <li>
+                        <i class="fas fa-list-alt"></i>
+                        <a href="all_item.html"> All items</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <i class="fab fa-shopify"></i>
+                        <a href="item_on_shop.html">Items on shop</a> 
+                    </li>
+                    <hr>
+                    <li> 
+                        <i class="far fa-chart-bar"></i>
+                        <a href=""> Profit</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <i class="fas fa-shipping-fast"></i>
+                        <a href="">Order</a> 
+                    </li>
+                     <hr>
+                     <li>
+                        <i class="far fa-window-restore"></i>
+                        <a href="add_item.html">Our Website</a>
+                     </li>
+                     <hr>
+                     <li class="bg-danger ">
+                        <i class="fas fa-sign-out-alt text-warning"></i>
+                        <a href="login.html" class="text-white">Log Out</a>
+                     </li>
+                     <hr>
+                </ul>
+            </div>
+            <div class="col-lg-10">
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <h2>Item Registration</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div>
+                                    <label for="">Kind of Product</label>
+                                    <input type="text" class="form-control  border-primary " placeholder="Phone or Tablet or Computer">
+                                </div>
+                                <div>
+                                    <label for="">Brand</label>
+                                    <input type="text" class="form-control  border-primary" placeholder=" Brand's name (eg. Apple , Samsung , Vivo , Oppo)">
+                                </div>
+                                <div>
+                                    <label for="">Name</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="Full name of item (eg. Galaxy Note-3)">
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <label for="">Price</label>
+                                            <input type="text" class="form-control  border-primary" placeholder="Price for one">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <label for="">Date</label>
+                                            <input type="text" class="form-control  border-primary" placeholder="Registrated date">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div>
+                                    <label for="">Picture one</label>
+                                    <input type="file" class="form-control  border-primary">
+                                </div>
+                                <div>
+                                    <label for="">Picture two</label>
+                                    <input type="file" class="form-control  border-primary">
+                                </div>
+                                <div>
+                                    <label for="">Picture three</label>
+                                    <input type="file" class="form-control  border-primary">
+                                </div>
+                                <div>
+                                    <label for="">Picture four</label>
+                                    <input type="file" class="form-control  border-primary">
+                                </div>
+                                <!-- <div>
+                                    <label for="">Description</label>
+                                    <br>
+                                    <textarea name="" id="" rows="10" class="form-control"></textarea>
+                                </div> -->
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div>
+                                    <label for="">Size</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. 6.5 inches)">
+                                </div>
+                                <div>
+                                    <label for="">Storage</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. 128 GB)">
+                                </div>
+                                <div>
+                                    <label for="">RAM</label>
+                                    <select name="" id="" class="form-control  border-primary">
+                                        <option value="">--Select--</option>
+                                        <option value="">2GB</option>
+                                        <option value="">4GB</option>
+                                        <option value="">6GB</option>
+                                        <option value="">8GB</option>
+                                        <option value="">16GB</option>
+                                        <option value="">32GB</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div>
+                                    <label for="">Resolution</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. 1080 x 2400)">
+                                </div>
+                                <div>
+                                    <label for="">CPU/Chipset</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. Core-i3 )">
+                                </div>
+                                <div>
+                                    <label for="">Sensor</label>
+                                    <select name="" id="" class="form-control  border-primary">
+                                        <option value="">--Select--</option>
+                                        <option value="">FingerPrint</option>
+                                        <option value="">FingerPrint , Face ID</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div>
+                                    <label for="">Main Cam</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. 50MP)">
+                                </div>
+                                <div>
+                                    <label for="">Battery</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. 5000mAh)">
+                                </div>
+                                <div>
+                                    <label for="">Quantity</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. 100)">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div>
+                                    <label for="">Selfie Cam</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. 8MP)">
+                                </div>
+                                <div>
+                                    <label for="">Fast Charing</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. 25W)">
+                                </div>
+                                <div>
+                                    <label for="">Color</label>
+                                    <input type="text" class="form-control  border-primary" placeholder="(eg. white)">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div>
+                                    <label for="">Description</label>
+                                    <br>
+                                    <textarea name="" id="" cols="30" rows="6" class="form-control bg-light border-primary" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <!-- <div class="col-lg-2"></div> -->
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-primary">Input</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
